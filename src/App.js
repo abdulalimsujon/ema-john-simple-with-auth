@@ -17,11 +17,11 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path='/' element={<Shop></Shop>}></Route>
-        <Route path='/shipment' element={
+        <Route path='/shiping' element={
 
-          <RequireAuth>
-            <Shipment></Shipment>
-          </RequireAuth>
+          //<RequireAuth>
+          <Shipment></Shipment>
+          //</RequireAuth>
 
         }></Route>
         <Route path='/shop' element={<Shop></Shop>}></Route>
